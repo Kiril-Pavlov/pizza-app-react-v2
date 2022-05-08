@@ -1,1 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
 
+:root{
+    --dark-clr:#111111;
+    --light-clr:#EEEEEE;
+    --primary-clr:orange;
+    --secondary-clr: grey;
+
+    --font-large: 32px;
+    --font-medium: 24px;
+    --font-standard:16px;
+
+    --font-bold:700;
+}
+
+
+
+
+
+/*  ---------------------- navbar styles ------------------------------------*/
+.nav-container{
+    background-color: var(--primary-clr);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.nav-item{
+    padding: 5px 20px;
+    text-decoration: none;
+    color: var(--dark-clr);
+    font-size: var(--font-medium);
+    font-weight: var(--font-bold);
+    transition: 1s;
+}
+
+.nav-item:hover{
+    background-color: var(--dark-clr);
+    color: var(--primary-clr);
+}

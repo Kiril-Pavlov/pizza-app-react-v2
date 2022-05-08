@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router';
+import { Navigate, Route, Routes } from 'react-router';
 import './App.css';
 
 //pages
@@ -22,6 +22,7 @@ function App() {
         <Route path='about' element={<About/>}/>
         <Route path='cartpage' element={<CartPage/>}/>
         <Route path='contact' element={<Contact/>}/>
+        <Route path='*' element={<Navigate to='/' replace/>}/>
       </Routes>
       <Footer/>
     </div>
