@@ -22,8 +22,15 @@ body{
     background-color: var(--dark-clr);
 }
 
+/*  ---------------------- header styles ------------------------------------*/
 
-
+.page-title{
+    font-size: 50px;
+    color: var(--primary-clr);
+    font-weight: var(--font-bold);
+    text-align: center;
+    padding: 20px;
+}
 
 
 /*  ---------------------- navbar styles ------------------------------------*/
@@ -106,4 +113,18 @@ body{
     font-weight: var(--font-bold);
     display: block;
     margin: 20px auto;
+}
+
+
+
+
+/*--------------------------- footer styles ------------------------------------*/
+
+.footer{
+    padding: 5px;
+    font-size: var(--font-standard);
+    background-color: var(--primary-clr);
+    color: var(--dark-clr);
+    text-align: center;
+    font-weight: var(--font-bold);
 }

@@ -11,6 +11,7 @@ import Contact from './pages/Contact/Contact';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Navbar from './components/Navbar/Navbar';
+import Pizza from "./components/Pizza/Pizza";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
+        <Route path="/:pizzaName" element={<Pizza />} />
         <Route path='about' element={<About/>}/>
         <Route path='cartpage' element={<CartPage/>}/>
         <Route path='contact' element={<Contact/>}/>
